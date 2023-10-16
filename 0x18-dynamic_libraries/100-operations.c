@@ -19,6 +19,10 @@ int sub(int a, int b)
 {
 	return (a - b);
 }
+int mul(int a, int b)
+{
+	return (a * b);
+}
 /**
  * div - Divides two integers
  * @: first int
@@ -33,16 +37,6 @@ int div(int a, int b)
 		return (0);
 	}
 	return (a / b);
-}
-/**
- * mul - multiplies two integers
- * @a: First int
- * @b: second int
- * Return: Result of their multiplication
- */
-int mul(int a, int b)
-{
-	return (a * b);
 }
 /**
  * mod - prints the modulo of two integers
