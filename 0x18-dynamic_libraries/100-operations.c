@@ -1,36 +1,36 @@
 #include <stdio.h>
 
-int add(int x, int y)
+int add(int a, int b)
 {
-	return (x + y);
+	return (a + b);
 }
 
-int sub(int x, int y)
+int sub(int a, int b)
 {
-	return (x - y);
+	return (a - b);
 }
 
-int div(int x, int y)
+int div(int a, int b)
 {
-	if (y == 0)
+	if (b == 0)
 	{
 		printf("Error: Division by zero\n");
 		return (0);
 	}
-	return (x / y);
+	return (a / b);
 }
 
-int mult(int x, int y)
+int mul(int a, int b)
 {
-	return (x * y);
+	return (a * b);
 }
 
-int modu(int x, int y)
+int mod(int a, int b)
 {
-	if (y == 0)
+	if (b == 0)
 	{
 		printf("Error: Division by zero\n");
 		return (0);
 	}
-	return (x % y);
+	return (a % b);
 }
