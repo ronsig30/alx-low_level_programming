@@ -7,7 +7,7 @@
  */
 int add(int a, int b)
 {
-	return (a + b);
+	return a + b;
 }
 /**
  * sub - Subtraction of two integers
@@ -17,11 +17,11 @@ int add(int a, int b)
  */
 int sub(int a, int b)
 {
-	return (a - b);
+	return a - b;
 }
 int mul(int a, int b)
 {
-	return (a * b);
+	return a * b;
 }
 /**
  * div - Divides two integers
@@ -36,7 +36,7 @@ int div(int a, int b)
 		printf("Error: Division by zero\n");
 		return (0);
 	}
-	return (a / b);
+	return a / b;
 }
 /**
  * mod - prints the modulo of two integers
@@ -51,5 +51,5 @@ int mod(int a, int b)
 		printf("Error: Division by zero\n");
 		return (0);
 	}
-	return (a % b);
+	return a % b;
 }
